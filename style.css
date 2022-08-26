@@ -1,0 +1,38 @@
+.header {
+    background: blanchedalmond;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+}
+
+.header-left {
+    display: flex;
+}
+
+.header-right {
+    display: flex;
+}
+
+ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+.container-1 {
+    background: white;
+}
+
+.container-2 {
+    background: grey;
+}
+
+.container-3 {
+    background: red;
+}
