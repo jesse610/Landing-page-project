@@ -1,12 +1,17 @@
 .header {
-    background: blanchedalmond;
+    background: rgb(3, 3, 75);
     display: flex;
     justify-content: space-between;
-    align-items: center; 
+    align-items: center;
 }
 
 .header-left {
     display: flex;
+    margin: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    align-items: center;
 }
 
 .header-right {
@@ -17,16 +22,62 @@ ul {
     display: flex;
     align-items: center;
     list-style: none;
+    gap: 10px;
+    margin-right: 5px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
 }
 
 body {
     display: flex;
     flex-direction: column;
     margin: 0;
+    font-family: roboto, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 .container-1 {
-    background: white;
+    background: rgb(3, 3, 75);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;                                                                                        
+    height: 300px;
+}
+
+.container-1-left {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 300px;
+    margin-left: 10px;
+}
+
+.container-1-right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px;
+}
+
+.text {
+    font-size: 32px;
+    font-weight: bold;
+    display: flex;
+}
+
+.subtext {
+    font-size: 12px;
+}
+
+button {
+    margin-top: 10px;
+    background: rgb(95, 198, 233);
+    border: none;
+    border-radius: 8px;
+    padding: 2px 16px;
 }
 
 .container-2 {
