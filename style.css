@@ -3,6 +3,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    height: 72px;
 }
 
 .header-left {
@@ -35,7 +36,13 @@ body {
     display: flex;
     flex-direction: column;
     margin: 0;
+    min-height: 100vh;
     font-family: roboto, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.body {
+    flex: 1;
+    display: flex;
 }
 
 .container-1 {
@@ -80,10 +87,49 @@ button {
     padding: 2px 16px;
 }
 
-.container-2 {
-    background: grey;
+.section-3 {
+    background: whitesmoke;
+}
+
+.title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    font-weight: bold;
+    font-size: 21px;
 }
 
 .container-3 {
-    background: red;
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    gap: 100px;
+    height: 300px;
+}
+
+.images {
+    max-width: 150px;
+}
+
+.container-4 {
+    background: rgba(208, 214, 214, 0.973);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+    font-size: 25px;
+}
+
+.testimonial {
+    display: flex;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 35px;
 }
