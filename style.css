@@ -1,5 +1,5 @@
 .header {
-    background: rgb(3, 3, 75);
+    background: rgba(179, 21, 21, 0.842);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -8,23 +8,23 @@
 
 .header-left {
     display: flex;
-    margin: 10px;
-    font-size: 20px;
+    font-size: 25px;
     font-weight: bold;
     color: white;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 .header-right {
     display: flex;
+    font-size: 18px;
 }
 
 ul {
     display: flex;
     align-items: center;
     list-style: none;
-    gap: 10px;
-    margin-right: 5px;
+    gap: 30px;
 }
 
 a {
@@ -46,7 +46,7 @@ body {
 }
 
 .container-1 {
-    background: rgb(3, 3, 75);
+    background: rgba(179, 21, 21, 0.842);
     color: white;
     display: flex;
     justify-content: space-between;
@@ -59,14 +59,12 @@ body {
     flex-direction: column;
     flex-wrap: wrap;
     width: 300px;
-    margin-left: 10px;
 }
 
 .container-1-right {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-right: 10px;
 }
 
 .text {
@@ -132,4 +130,15 @@ button {
     justify-content: center;
     align-items: center;
     height: 35px;
+    margin: 10px;
+}
+
+.resize {
+    width: 300px;
+    height: auto;
+}
+
+.wrapper {
+    max-width: 1440px; /* 2 */
+    margin: 0 auto;
 }
