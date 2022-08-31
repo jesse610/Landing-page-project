@@ -1,5 +1,4 @@
 .header {
-    background: rgba(179, 21, 21, 0.842);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -46,7 +45,6 @@ body {
 }
 
 .container-1 {
-    background: rgba(179, 21, 21, 0.842);
     color: white;
     display: flex;
     justify-content: space-between;
@@ -138,7 +136,16 @@ button {
     height: auto;
 }
 
-.wrapper {
-    max-width: 1440px; /* 2 */
-    margin: 0 auto;
+.section-wrapper {
+    margin-right: auto;
+    margin-left:  auto;
+      
+    max-width: 960px; 
+      
+    padding-right: 10px; 
+    padding-left:  10px;
+}
+
+.section-1 {
+    background: lightblue;
 }
