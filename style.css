@@ -50,13 +50,14 @@ body {
     justify-content: space-between;
     align-items: center;                                                                                        
     height: 300px;
+    margin-bottom: 50px;
 }
 
 .container-1-left {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    width: 300px;
+    width: 475px;
 }
 
 .container-1-right {
@@ -66,13 +67,13 @@ body {
 }
 
 .text {
-    font-size: 32px;
+    font-size: 35px;
     font-weight: bold;
     display: flex;
 }
 
 .subtext {
-    font-size: 12px;
+    font-size: 18px;
 }
 
 button {
@@ -81,10 +82,6 @@ button {
     border: none;
     border-radius: 8px;
     padding: 2px 16px;
-}
-
-.section-3 {
-    background: whitesmoke;
 }
 
 .title {
@@ -96,7 +93,7 @@ button {
     font-size: 21px;
 }
 
-.container-3 {
+.container-2 {
     display: flex;
     justify-content: center;
     margin: 10px;
@@ -132,8 +129,9 @@ button {
 }
 
 .resize {
-    width: 300px;
+    width: 450px;
     height: auto;
+    border-radius: 10px;
 }
 
 .section-wrapper {
