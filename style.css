@@ -114,19 +114,25 @@ button {
     border-radius: 10px;
 }
 
-.container-4 {
-    background: rgba(208, 214, 214, 0.973);
+.container-3 {
     display: flex;
-    align-items: center;
+    flex-direction: column;
     justify-content: center;
     height: 300px;
-    font-size: 25px;
+    font-size: 32px;
+    margin-bottom: 30px;
 }
 
 .testimonial {
     display: flex;
-    margin-left: 100px;
-    margin-right: 100px;
+    font-family: 'Alan';
+}
+
+.testimonial-name {
+    text-align: end;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Allan';
 }
 
 .footer {
@@ -160,4 +166,8 @@ button {
 .section-2 {
     background:rgb(1, 57, 85);
     color: white;
+}
+
+.section-3 {
+    background: lightgray;
 }
